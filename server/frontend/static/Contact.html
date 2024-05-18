@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: darkturquoise;
+            height: 0 in;
+            padding: 5px 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navbar h2 {
+            margin: 0;
+            margin-right: 10px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #black;
+            margin: 0 20px;
+            font-size: larger;
+        }
+        .header {
+            width: 80%;
+            margin: 20px auto;
+            height: 500px;
+            background: url('/static/cars.jpeg') no-repeat center center;
+            background-size: cover;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 2px 2px 3px #999;  
+            border-radius:50px;
+        }
+        .contact-container {
+            background-color: #ffffff;
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            box-shadow: 2px 2px 3px #999; 
+        }
+        .contact-icon {
+            width: 400px;
+            height: 500px;
+            margin-right: 15px;
+        }
+        .delimiter {
+            width: 1px;
+            height: 100%;
+            background-color: black;
+            margin-right: 15px;
+        }
+        .contact-info {
+            line-height: 1.6;
+            font-size: 18px;
+            color: skyblue;
+        }
+        .contact-info a {
+            color: rgba(0, 0, 0, 1);
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div class="container-fluid">
+            <h2>Dealerships</h2>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div class="navbar-links">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <a class="nav-link" href="/">Home</a>
+                <a class="nav-link active" href="/about">About Us</a>
+                <a class="nav-link" href="/contact">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+    <div class="header">
+    </div>
+    <div class="contact-container">
+        <img src="/static/contactus.png" alt="Contact Icon" class="contact-icon">
+        <div class="delimiter"></div>
+        <div class="contact-info">
+            <h1>Contact Us</h1>
+            <p>Contact Customer Service: <a href="mailto:support@bestcars.com">support@bestcars.com</a></p>
+            <p>Contact our National Advertising team: <a href="mailto:NationalSales@bestcars.com">NationalSales@bestcars.com</a></p>
+            <p>Contact our Public Relations team: <a href="mailto:PR@bestcars.com">PR@bestcars.com</a></p>
+            <p>Contact the bestcars.com offices: <a href="tel:+1312-611-1111">312-611-1111</a></p>
+            <p>Become a bestcars.com car dealer: <a href="http://growwithbestcars.com">Visit growwithbestcars.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
